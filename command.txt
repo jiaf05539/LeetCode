@@ -1,0 +1,14 @@
+git config --global user.name 'YourName'
+git config --global user.email 'YourEmail'
+git confit -l  #check settings
+git init #initialization
+git remote add origin https://github.com/.../....git
+
+#Manually add files#
+
+git status #check status
+git add *
+git commit -m 'first_commit'
+
+git push -u origin master #updating to remote
+
